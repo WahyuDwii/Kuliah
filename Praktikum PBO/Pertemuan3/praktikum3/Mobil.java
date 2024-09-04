@@ -9,10 +9,10 @@ package praktikum3;
  * @author wahyu dwi
  */
 public class Mobil {
-    private String merk;
-    private String model;
-    private int tahun;
-    private String warna; 
+    String merk;
+    String model;
+    int tahun;
+    String warna; 
     
     public Mobil(String merk, String model, int tahun, String warna) {
         this.merk = merk;
@@ -64,4 +64,6 @@ public class Mobil {
         System.out.println("Mesin mobil " + merk + " menyala");
     }
 }
+
+
 

@@ -15,13 +15,11 @@ public class MainMobil {
         
         System.out.println("Informasi Mobil 1:");
         mobil1.displayInfo();
+        mobil1.startEngine();
         System.out.println();
         
         System.out.println("Informasi Mobil 2:");
         mobil2.displayInfo();
-        System.out.println();
-        
-        mobil1.startEngine();
         mobil2.startEngine();
         System.out.println();
         
@@ -30,9 +28,11 @@ public class MainMobil {
         
         System.out.println("Informasi Mobil 1 setelah perubahan warna:");
         mobil1.displayInfo();
+        mobil1.startEngine();
         System.out.println();
         
         System.out.println("Informasi Mobil 2 setelah perubahan warna:");
         mobil2.displayInfo();
+        mobil2.startEngine();
     }
 }
