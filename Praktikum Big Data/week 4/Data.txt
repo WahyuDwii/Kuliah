@@ -1,0 +1,5 @@
+Wahyu,21,4.0
+Shevia,21,3.8
+Aurelia,18,3.9
+Febrian,22,3.6
+Budi,20,2.9
